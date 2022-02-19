@@ -4,7 +4,7 @@ module.exports = {
     node: true,
   },
   extends: [
-    'plugin:vue/vue3-essential',
+    'plugin:vue/essential',
     '@vue/airbnb',
   ],
   parserOptions: {
@@ -13,5 +13,10 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'linebreak-style': 0,
+    'max-len': 0,
+    'no-plusplus': 0,
+    'object-curly-newline': 0,
+    'indent': 0,
   },
 };
